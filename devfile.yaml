@@ -1,0 +1,8 @@
+schemaVersion: 2.1.0
+metadata:
+  name: altiplano-vm
+components:
+  - name: tools
+    container:
+      image: artifactory-blr-fnms.int.net.nokia.com:9010/devimage:v1
+      memoryLimit: 3Gi
